@@ -29,15 +29,7 @@ function App() {
         />
       )}
       <div className='page'>
-        {isSignedIn ? (
-          page == 'main' ? (
-            <Main />
-          ) : (
-            <Favourite />
-          )
-        ) : (
-          <p>Please Sign in first</p>
-        )}
+        // display the page content here
       </div>
     </div>
   )
